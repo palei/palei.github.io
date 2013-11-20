@@ -1,0 +1,12 @@
+@media (max-width: 1024px) {
+  .nav {
+    background-color:red !important;
+  }
+  div.section {
+    background-color:#000 !important;
+  }
+  div.box {
+    width: 900px;
+    float: none;
+  }
+}

@@ -3,12 +3,16 @@
 @font-face { font-family: brainflower; src: url(../font/BrainFlowerEuro.ttf); }
 @font-face { font-family: lazysunday; src: url(../font/lazy_sunday_regular.ttf); }
 @font-face { font-family: ponymaker; src: url(../font/PonyMaker.ttf); }
+@font-face { font-family: impactlabel; src: url(../font/ImpactLabelReversed.ttf); }
+@font-face { font-family: royaldelight; src: url(../font/RoyalDelightShad.ttf); }
 
 .linowrite   { font-family: "linowrite" }
 .angrybirds  { font-family: "angrybirds" }
 .brainflower { font-family: "brainflower" }
 .lazysunday  { font-family: "lazysunday" }
 .ponymaker   { font-family: "ponymaker" }
+.impactlabel { font-family: "impactlabel" }
+.royaldelight{ font-family: "royaldelight" }
 
 .xxlarge { font-size: 3em; padding:50px 0px 30px 0px; line-height: 60px }
 .xlarge  { font-size: 2.5em; }
@@ -129,7 +133,6 @@ h1 {
 h3 {
   clear:both;
   margin:5px;
-  font-family:"Ubuntu Mono";
   font-weight: normal;
   font-size:1.5em;
   padding-top:20px;
@@ -221,15 +224,15 @@ ul.skills li {
 
 table.contact {
   border-collapse:collapse;
-  width:100%;
-  font-family:"Ubuntu";
+  width:92%;
+  font-family:"Trebuchet MS";
   color:white;
-  background-color:#111;
+  background-color:#D74141;
   border-radius:4px;
 }
 
 table.contact tr {
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid #E44C4C;
   height:70px;
 }
 
@@ -238,25 +241,25 @@ table.contact tr:last-child {
 }
 
 table.contact td {
-  padding:10px;
+  padding:10px 0 10px 40px;
 }
 
 table.contact tr td:last-child {
-  text-align:right;
-  font-family:monospace;
   line-height:24px
 }
 
 div.project {
-  background-color:white;
+  background-color:#7A93CA;
   padding:15px;
   border-radius:3px;
   margin-bottom:10px;
   color:black;
 }
 
-div.project h2 {
-  font-family:"Trebuchet MS";
+div#projects h2 {
   font-weight: normal;
-  margin-left:5px
+  font-size:2em;
+  margin-left:5px;
+  margin-bottom:10px;
+  font-family:"linowrite";
 }
