@@ -211,7 +211,7 @@ ul.skills {
 
 ul.skills li {
   float:left;
-  background-color:#333;
+  background-color:#000;
   color:white;
   padding:10px 15px;
   border-radius:4px;
@@ -245,4 +245,18 @@ table.contact tr td:last-child {
   text-align:right;
   font-family:monospace;
   line-height:24px
+}
+
+div.project {
+  background-color:white;
+  padding:15px;
+  border-radius:3px;
+  margin-bottom:10px;
+  color:black;
+}
+
+div.project h2 {
+  font-family:"Trebuchet MS";
+  font-weight: normal;
+  margin-left:5px
 }
