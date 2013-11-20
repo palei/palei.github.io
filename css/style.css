@@ -218,3 +218,31 @@ ul.skills li {
   margin:5px;
   font-size:1.4em;
 }
+
+table.contact {
+  border-collapse:collapse;
+  width:100%;
+  font-family:"Ubuntu";
+  color:white;
+  background-color:#111;
+  border-radius:4px;
+}
+
+table.contact tr {
+  border-bottom: 1px solid #222;
+  height:70px;
+}
+
+table.contact tr:last-child {
+  border:0;
+}
+
+table.contact td {
+  padding:10px;
+}
+
+table.contact tr td:last-child {
+  text-align:right;
+  font-family:monospace;
+  line-height:24px
+}
