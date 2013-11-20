@@ -1,12 +1,14 @@
-@media (max-width: 1024px) {
-  .nav {
-    background-color:red !important;
+@media (max-width: 1024px) {
+  div.nav ul li a {
+    background-color:#111 !important;
   }
-  div.section {
-    background-color:#000 !important;
+  div.section div.box {
+    float:none;
+    width:600px;
+    margin:0 auto 20px auto;
   }
-  div.box {
-    width: 900px;
-    float: none;
+  div.project {
+    width:100%;
+    margin:0 auto 0 auto;
   }
 }
