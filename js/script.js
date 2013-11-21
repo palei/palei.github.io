@@ -10,13 +10,15 @@ var scrollItems = navItems.map(function() {
 });
 
 navItems.click(function(e) {
-  var href = $(this).attr("href");
-  var offsetTop = $(href).offset().top - navHeight + 1;
-  
-  $('html, body').stop().animate({ 
-      scrollTop: offsetTop
-  }, 320);
-  e.preventDefault();
+  if ($('html').width() > 877) {
+    var href = $(this).attr("href");
+    var offsetTop = $(href).offset().top - navHeight + 1;
+    
+    $('html, body').stop().animate({ 
+        scrollTop: offsetTop
+    }, 320);
+    e.preventDefault();
+  }
 });
 
 $(window).scroll(function(){
