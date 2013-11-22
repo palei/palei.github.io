@@ -83,7 +83,7 @@ div.white {
 }
 
 div.green { 
-  background-color: #4EBD40 !important;
+  background-color: #B9FF75 !important;
   border-top: 10px solid #339922;
   color:black;
 }
@@ -106,7 +106,6 @@ div.dark {
 }
 
 div.center {
-  width:900px;
   margin:0 auto 0 auto;
 }
 
@@ -158,8 +157,8 @@ table.details {
   font-family:monospace;
   font-size: 1.2em;
   border-collapse:collapse;
-  background-color:#31344A;
-  color:white;
+  background-color:#698CE3;
+  color:black;
   padding:10px;
   border-radius:7px;
   width:90%;
@@ -167,13 +166,13 @@ table.details {
 }
 
 table.details tr {
-  border-bottom:1px solid #364355;
+  border-bottom:1px solid #83AEE7;
 }
 
 table.details td {
   padding:15px;
-}
 
+}
 
 table.details td:nth-child(odd) {
   font-weight:normal;
@@ -240,11 +239,13 @@ table.contact tr:last-child {
 }
 
 table.contact td {
-  padding:10px 0 10px 40px;
+  padding:10px 30px;
 }
 
 table.contact tr td:last-child {
-  line-height:24px
+  line-height:24px;
+  text-align:right;
+  font-family:monospace;
 }
 
 div.project {
@@ -261,4 +262,12 @@ div#projects h2 {
   margin-left:5px;
   margin-bottom:10px;
   font-family:"linowrite";
+}
+
+div#projects p {
+  background-color:#8BA7C2;
+  border-radius:4px;
+  border:1px solid #7A83C3;
+  color:#123;
+  padding:10px;
 }

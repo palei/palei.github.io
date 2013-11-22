@@ -28,4 +28,7 @@
     float:none;
     width:100%;
   }
+  div.center {
+    width:400px !important;
+  }
 }
