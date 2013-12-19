@@ -61,7 +61,7 @@ div.nav ul {
 
 div.nav ul li {
   float:left;
-  width:200px;
+  width:250px;
 }
 
 div.nav ul li a {
@@ -81,7 +81,7 @@ div.wrap {
 }
 
 div.nav ul li a:hover, div.nav ul li.active {
-  background-color:#2F84C4;
+  background-color:#3EA7EF;
 }
 
 div.white { 
@@ -277,6 +277,18 @@ div#projects p {
 }
 
 div#projects div.sub-section {
-  background-color: #496F9C;
-  
+  background-color: #111;
+  padding:10px;
+  border-radius: 5px;
+  margin-top: 16px; 
+}
+
+div#projects div.sub-section h3 {
+  text-align: left;
+  font-size: 1em;
+}
+
+div#projects div.sub-section p {
+  font-size: 1em;
+  background-color: #111;
 }
