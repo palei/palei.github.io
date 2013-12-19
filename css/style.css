@@ -14,7 +14,7 @@
 .impactlabel { font-family: "impactlabel" }
 .royaldelight{ font-family: "royaldelight" }
 
-.xxlarge { font-size: 3em; padding:50px 0px 30px 0px; line-height: 60px }
+.xxlarge { font-size: 3em; padding:0px 0px 30px 0px; line-height: 60px }
 .xlarge  { font-size: 2.5em; }
 .large   { font-size: 1.8em; }
 
@@ -42,7 +42,8 @@ div.section {
 }
 
 div#welcome h1 {
-  margin:45px 0px 30px 0px;
+  margin:45px 0px 20px 0px;
+  font-size: 6em;
 }
 
 div.nav {
@@ -68,14 +69,19 @@ div.nav ul li a {
   padding:10px 10px;
   text-decoration:none;
   text-align:center;
-  font-family:"lazysunday";
-  font-size:1.4em;
+  font-family:"Trebuchet MS";
+  font-size:1.2em;
   color:white;
   font-weight:normal;
 }
 
+div.wrap {
+  width: 800px;
+  margin: 0 auto 0 auto;
+}
+
 div.nav ul li a:hover, div.nav ul li.active {
-  background-color:#E22E2E;
+  background-color:#2F84C4;
 }
 
 div.white { 
@@ -124,7 +130,7 @@ p.large-header {
 h1 {
   font-weight:normal;
   text-align:center;
-  font-size:6em;
+  font-size:4em;
   font-family:"linowrite";
   margin:0px 0px 20px 0px;
 }
@@ -135,10 +141,11 @@ h3 {
   font-weight: normal;
   font-size:1.5em;
   padding-top:20px;
+  text-align: center;
 }
 
 p {
-  font-family:"Ubuntu", "Helvetica", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size:1.2em;
   margin:5px;
   line-height:32px;
@@ -160,13 +167,13 @@ table.details {
   background-color:#698CE3;
   color:black;
   padding:10px;
-  border-radius:7px;
-  width:90%;
+  width: 100%;
+  border-radius:6px;
   margin-bottom:30px;
 }
 
 table.details tr {
-  border-bottom:1px solid #83AEE7;
+  border-bottom:1px solid #739ED6;
 }
 
 table.details td {
@@ -259,15 +266,17 @@ div.project {
 div#projects h2 {
   font-weight: normal;
   font-size:2em;
+  text-align: center;
   margin-left:5px;
   margin-bottom:10px;
   font-family:"linowrite";
 }
 
-div#projects p {
-  background-color:#8BA7C2;
-  border-radius:4px;
-  border:1px solid #7A83C3;
-  color:#123;
-  padding:10px;
+div#projects p {
+
+}
+
+div#projects div.sub-section {
+  background-color: #496F9C;
+  
 }
